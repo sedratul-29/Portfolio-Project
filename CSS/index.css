@@ -206,3 +206,54 @@ header nav ul li a {
     line-height: 28px;
     color: #757575;
 }
+
+#resume{
+    padding-top: 130px;
+}
+
+.resume-container{
+    display: flex;
+    margin: 113px auto 0px;
+    max-width: 1140px;
+    width: 71.25%;
+    gap: 24px;
+}
+
+.resume-container h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-container .education-info-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-container .education-info-card h4{
+    color: #474747;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.resume-container .education-info-card .a{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight:600;
+}
+
+.resume-container .education-info-card .b{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+.center{
+    text-align: center;
+    margin-top: 69px;
+}
