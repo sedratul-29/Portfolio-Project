@@ -331,9 +331,74 @@ textarea {
 
 @media screen and (min-width:300px) and (max-width:576px) {
 
+    /* nav section */
+
+    header {
+        background:url('../images/header_bg.png') #FFF8F3; 
+        background-repeat: no-repeat;
+        background-position:bottom left;
+        padding-top: 40px;
+        padding-bottom: 1px;
+    }
+
+    header nav {
+        width: 97%;
+        flex-direction: column;
+        align-items: start;
+        margin: 0px 11px 0px 11px;
+    }
+
+    .logo h2 {
+        font-size: 40px;
+    }
+
+    header nav ul {
+        gap: 65px;
+    }
+
+    header nav ul li a {
+        font-size: 17px;
+    }
+
+    /* banner section */
+
+    #banner {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .banner-content {
+        width: 100%;
+        ;
+    }
+
+    .banner-content h2 {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .x{
+        display: flex;
+        gap: 20px;
+    }
+
+    .banner-image img {
+        width: 100%;
+        vertical-align: middle;
+        display: none;
+    }
+
     /* about section */
     #about {
-        padding-top: 100px;
+        padding-top: 65px;
     }
 
     #about .about-container {
@@ -349,7 +414,7 @@ textarea {
     }
 
     #about .section-heading p {
-        font-size: 11px;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 
